@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/FoodItems")
 public class FoodCatalogueController {
 
+    public String name = "Test";
 
 
     @Autowired
